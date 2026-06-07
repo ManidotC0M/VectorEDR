@@ -1,0 +1,139 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+  37.382511700s  INFO prepare_target{force=false package_id=vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend) target="vector_edr_backend"}: cargo::core::compiler::fingerprint: fingerprint error for vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend)/Check { test: false }/TargetInner { name: "vector_edr_backend", doc: true, ..: with_path("F:\\Project\\VectorEDR\\Backend\\src\\main.rs", Edition2021) }
+  37.382618500s  INFO prepare_target{force=false package_id=vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend) target="vector_edr_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\Project\VectorEDR\Backend\target\debug\.fingerprint\vector_edr_backend-a53b6c7a4d09b229\bin-vector_edr_backend`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\core\src\ops/function.rs:287:21
+  17: main
+  18: __tmainCRTStartup
+  19: mainCRTStartup
+  20: <unknown>
+  21: <unknown>
+  37.427115000s  INFO prepare_target{force=false package_id=rusqlite v0.31.0 target="rusqlite"}: cargo::core::compiler::fingerprint: fingerprint error for rusqlite v0.31.0/Check { test: false }/TargetInner { ..: lib_target("rusqlite", ["lib"], "C:\\Users\\Pc\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rusqlite-0.31.0\\src\\lib.rs", Edition2021) }
+  37.427157000s  INFO prepare_target{force=false package_id=rusqlite v0.31.0 target="rusqlite"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\Project\VectorEDR\Backend\target\debug\.fingerprint\rusqlite-40ceb5165a4e8954\lib-rusqlite`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\core\src\ops/function.rs:287:21
+  18: main
+  19: __tmainCRTStartup
+  20: mainCRTStartup
+  21: <unknown>
+  22: <unknown>
+  37.431806300s  INFO prepare_target{force=false package_id=libsqlite3-sys v0.28.0 target="libsqlite3_sys"}: cargo::core::compiler::fingerprint: fingerprint error for libsqlite3-sys v0.28.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsqlite3_sys", ["lib"], "C:\\Users\\Pc\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsqlite3-sys-0.28.0\\src\\lib.rs", Edition2021) }
+  37.431840100s  INFO prepare_target{force=false package_id=libsqlite3-sys v0.28.0 target="libsqlite3_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\Project\VectorEDR\Backend\target\debug\.fingerprint\libsqlite3-sys-0d61af512d9d34a3\lib-libsqlite3_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+  37.434710800s  INFO prepare_target{force=false package_id=vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend) target="vector_edr_backend"}: cargo::core::compiler::fingerprint: fingerprint error for vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend)/Check { test: true }/TargetInner { name: "vector_edr_backend", doc: true, ..: with_path("F:\\Project\\VectorEDR\\Backend\\src\\main.rs", Edition2021) }
+  37.434739800s  INFO prepare_target{force=false package_id=vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend) target="vector_edr_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\Project\VectorEDR\Backend\target\debug\.fingerprint\vector_edr_backend-6972e69e011ac8cd\test-bin-vector_edr_backend`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library\core\src\ops/function.rs:287:21
+  17: main
+  18: __tmainCRTStartup
+  19: mainCRTStartup
+  20: <unknown>
+  21: <unknown>
+    Checking libsqlite3-sys v0.28.0
+    Checking rusqlite v0.31.0
+    Checking vector_edr_backend v0.1.0 (F:\Project\VectorEDR\Backend)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 38.66s

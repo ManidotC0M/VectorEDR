@@ -1,6 +1,7 @@
 mod models;
 mod handlers;
 mod routes;
+mod db;
 
 use std::net::SocketAddr;
 use axum::Router;

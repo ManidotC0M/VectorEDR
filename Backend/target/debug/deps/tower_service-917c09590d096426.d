@@ -1,0 +1,7 @@
+F:\Project\VectorEDR\Backend\target\debug\deps\tower_service-917c09590d096426.d: C:\Users\Pc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+F:\Project\VectorEDR\Backend\target\debug\deps\libtower_service-917c09590d096426.rlib: C:\Users\Pc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+F:\Project\VectorEDR\Backend\target\debug\deps\libtower_service-917c09590d096426.rmeta: C:\Users\Pc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+C:\Users\Pc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs:
